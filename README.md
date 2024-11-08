@@ -47,37 +47,6 @@ BOT_TOKEN=your_bot_token_here
 python main.py
 
 
-📋 Project Structure
-
-book_bot/
-│
-├── lexicon/               # Contains lexicon for bot responses
-│   └── lexicon_ru.py
-│
-├── services/              # Contains service functions
-│   └── file_handling.py
-│
-├── handlers/              # Contains message handlers
-│   ├── user_handlers.py
-│   └── other_handlers.py
-│
-├── keyboards/             # Contains keyboard layouts
-│   ├── main_menu.py
-│   ├── bookmarks_kb.py
-│   └── pagination_kb.py
-│
-├── database/              # Contains database setup
-│   └── database.py
-│
-├── config_data/           # Contains configuration files
-│   └── config.py
-│
-├── filters/               # Contains custom filters
-│   └── filters.py
-│
-├── main.py                # Main entry point for the bot
-└── requirements.txt       # List of dependencies
-
 🧪 Testing
 To run tests, ensure you have a testing framework set up and execute:
 pytest
